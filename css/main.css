@@ -5809,7 +5809,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  color: white; }
+  color: white;
+  background-color: #e9e0b7; }
 
 .navbar {
   background-color: #2f1f1f;
@@ -5829,7 +5830,16 @@ body {
 
 /*seccion 2 */
 .section2 {
-  background-color: #e9e0b7;
-  color: black; }
+  color: black;
+  border-top: 1px solid black;
+  height: 50vh; }
+
+.logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 56%;
+  margin: 0 auto;
+  z-index: 9999999; }
 
 /*# sourceMappingURL=main.css.map */
