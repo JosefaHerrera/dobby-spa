@@ -1,5 +1,14 @@
 /*aquí se hace el codigo general como lo hariamos en css normal*/
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: $background_seccion_uno;
+    color:white;
+}
+
 .navbar {
     background-color: $footer_navbar_color;
+    text-align: center;
 }

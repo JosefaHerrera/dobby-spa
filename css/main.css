@@ -5805,7 +5805,15 @@ button.close {
 /*Seccion tres*/
 /*pueden haber cambios de variables y orden en _bases.scss*/
 /*aquí se hace el codigo general como lo hariamos en css normal*/
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #e9e0b7;
+  color: white; }
+
 .navbar {
-  background-color: #2f1f1f; }
+  background-color: #2f1f1f;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
