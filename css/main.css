@@ -5842,4 +5842,19 @@ body {
   margin: 0 auto;
   z-index: 9999999; }
 
+.section2 .container span {
+  background-color: #d9bf84; }
+.section2 .container a {
+  color: black; }
+.section2 .container a:hover {
+  color: whitesmoke; }
+
+.section2 .container img {
+  border-radius: 4px solid #d9bf84; }
+
+.section3 {
+  background-color: #f4f4f4;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
 /*# sourceMappingURL=main.css.map */
