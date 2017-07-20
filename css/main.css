@@ -5836,24 +5836,22 @@ body {
   color: black;
   border-top: 1px solid black;
   height: 50vh; }
-
-.logo {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 56%;
-  margin: 0 auto;
-  z-index: 9999999; }
-
-.section2 .container span {
-  background-color: #d9bf84; }
-.section2 .container a {
-  color: black; }
-.section2 .container a:hover {
-  color: whitesmoke; }
-
-.section2 .container img {
-  border-radius: 4px solid #d9bf84; }
+  .section2 .logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 56%;
+    margin: 0 auto;
+    z-index: 9999999; }
+  .section2 .container
+  img {
+    border: 10px solid #d9bf84; }
+  .section2 span {
+    background-color: #d9bf84; }
+  .section2 a {
+    color: black; }
+    .section2 a:hover {
+      color: whitesmoke; }
 
 .section3 {
   background-color: #f4f4f4;

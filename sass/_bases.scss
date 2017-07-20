@@ -38,48 +38,35 @@ body {
 }
 
 /*seccion 2 */
-
 .section2{
-	color:black;
-	border-top:1px solid black;
-	height: 50vh;
+    color:black;
+    border-top:1px solid black;
+    height: 50vh;
+    .logo{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 56%;
+      margin: 0 auto;
+      z-index: 9999999;
+      }
+  	   .container
+        //estilos container (si son necesarios)
+        img{
+          border: 10px solid $circle_readmore_color;
+          }
+      		span{
+      			background-color: $circle_readmore_color;
+      		}
+      		  a{
+      			 color:black;
+      			 &:hover{
+      				color:$blanco;
+      		}
+      	}
 }
 
 
-.logo {
-   position: absolute;
-   left: 0;
-   right: 0;
-   top: 56%;
-   margin: 0 auto;
-   z-index: 9999999;
-}
-
-
-
-.section2{
-	.container{
-		span{
-			background-color: $circle_readmore_color;
-		}
-		a{
-				color:black;
-		}
-		a:hover{
-				color:$blanco;
-		}
-	}
-}
-
-
-
-.section2{
-	.container{
-		img{
-			border-radius: 4px solid $circle_readmore_color;
-		}
-	}
-}
 
 
 
