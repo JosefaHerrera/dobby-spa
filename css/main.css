@@ -5811,6 +5811,12 @@ body {
   overflow-x: hidden;
   color: white;
   background-color: #e9e0b7; }
+  body p {
+    font-size: 12px;
+    letter-spacing: 1px; }
+  body li {
+    font-size: 12px;
+    list-style: none; }
 
 .navbar {
   background-color: #2f1f1f;
@@ -5825,6 +5831,7 @@ body {
   /* border-color: #e7e7e7; */
   padding-left: 31%; }
 
+/*seccion uno*/
 .carousel-indicators .active {
   margin: 0;
   width: 12px;
@@ -5853,9 +5860,29 @@ body {
     .section2 a:hover {
       color: whitesmoke; }
 
+/*seccion 3*/
 .section3 {
   background-color: #f4f4f4;
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: black;
+  border-top: 5px solid #e9e0b7; }
+  .section3 h2 {
+    color: #d86b40; }
+  .section3 li > img {
+    width: 2%; }
+  .section3 li {
+    padding-bottom: 11px; }
+
+/*seccion 4*/
+.section4 {
+  background-color: #4a3a3a;
+  color: #d9bf84;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+
+/*seccion footer*/
+.footer1 {
+  background-color: #2f1f1f; }
 
 /*# sourceMappingURL=main.css.map */

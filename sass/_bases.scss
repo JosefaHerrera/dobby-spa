@@ -6,6 +6,14 @@ body {
     overflow-x: hidden;
     color:white;
     background-color:$background_seccion_uno;
+    p{
+      font-size:12px;
+      letter-spacing:1px;
+    }
+      li{
+        font-size:12px;
+        list-style:none;
+      }
 }
 
 //navbar
@@ -27,7 +35,7 @@ body {
     /* border-color: #e7e7e7; */
     padding-left: 31%;
 }
-
+/*seccion uno*/
 //CAROUSEL
 
 .carousel-indicators .active {
@@ -66,13 +74,39 @@ body {
       	}
 }
 
-
-
-
-
-
+/*seccion 3*/
 .section3{
 	background-color: $background_seccion_dos;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+  color:black;
+  border-top: 5px solid $background_seccion_uno;
+  h2{
+    color:$color_text_titulo;
+  }
+  li>img{
+    width: 2%;
+  }
+  li{
+    padding-bottom: 11px;
+  }
 }
+
+/*seccion 4*/
+
+.section4{
+  background-color:$background_seccion_tres;
+  color:$circle_readmore_color;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+/*seccion footer*/
+.footer1{
+  background-color:$footer_navbar_color;
+}
+
+
+
+
+
