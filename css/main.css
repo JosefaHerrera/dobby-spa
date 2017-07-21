@@ -5880,6 +5880,11 @@ body {
   color: #d9bf84;
   padding-bottom: 40px;
   padding-top: 40px; }
+  .section4 hr {
+    color: whitesmoke;
+    width: 45%; }
+  .section4 i {
+    color: whitesmoke; }
 
 /*seccion footer*/
 .footer1 {

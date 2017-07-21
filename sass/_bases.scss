@@ -99,6 +99,13 @@ body {
   color:$circle_readmore_color;
   padding-bottom: 40px;
   padding-top: 40px;
+  hr{
+      color:$blanco;
+      width: 45%;
+  }
+  i{
+    color:$blanco;
+  }
 }
 
 /*seccion footer*/
