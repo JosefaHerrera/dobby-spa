@@ -138,6 +138,7 @@ body {
     padding-bottom: 40px;
     .comillas {
         width: 140%;
+        border:none;
     }
       a{
         color:$color_text_titulo;
@@ -150,4 +151,16 @@ body {
           h4{
             padding-bottom: 16px;
             }
+            img{
+                background-color:$circle_readmore_color;
+                border: 5px solid $color_text_titulo;
+                cursor: pointer;
+            }
+                p{
+                    letter-spacing:0;
+
+                }
+                    hr{
+                        border-top:1px solid $circle_readmore_color;
+                    }
 }

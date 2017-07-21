@@ -5908,7 +5908,8 @@ body {
   padding-top: 40px;
   padding-bottom: 40px; }
   .footer1 .comillas {
-    width: 140%; }
+    width: 140%;
+    border: none; }
   .footer1 a {
     color: #d86b40; }
     .footer1 a:hover {
@@ -5916,5 +5917,13 @@ body {
       text-decoration: none; }
   .footer1 h4 {
     padding-bottom: 16px; }
+  .footer1 img {
+    background-color: #d9bf84;
+    border: 5px solid #d86b40;
+    cursor: pointer; }
+  .footer1 p {
+    letter-spacing: 0; }
+  .footer1 hr {
+    border-top: 1px solid #d9bf84; }
 
 /*# sourceMappingURL=main.css.map */
