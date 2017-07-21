@@ -5805,6 +5805,19 @@ button.close {
 /*Seccion tres*/
 /*pueden haber cambios de variables y orden en _bases.scss*/
 /*aquí se hace el codigo general como lo hariamos en css normal*/
+/*
+
+$footer_navbar_color:#2f1f1f;
+$blanco: whitesmoke;
+$background_seccion_uno:#e9e0b7;
+$circle_readmore_color:#d9bf84;
+$circle:50%;
+$background_seccion_dos:#f4f4f4;
+$color_text_titulo:#d86b40;
+$background_seccion_tres:#4a3a3a;
+$color_text_seccion_tres:#fbcd7f;
+
+*/
 body {
   margin: 0;
   padding: 0;
@@ -5827,7 +5840,8 @@ body {
   .navbar-default .navbar-nav > li > a:hover {
     color: #d9bf84; }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
   /* border-color: #e7e7e7; */
   padding-left: 31%; }
 
@@ -5879,7 +5893,8 @@ body {
   background-color: #4a3a3a;
   color: #d9bf84;
   padding-bottom: 40px;
-  padding-top: 40px; }
+  padding-top: 40px;
+  border-bottom: 2px solid whitesmoke; }
   .section4 hr {
     color: whitesmoke;
     width: 45%; }
@@ -5888,6 +5903,18 @@ body {
 
 /*seccion footer*/
 .footer1 {
-  background-color: #2f1f1f; }
+  background-color: #2f1f1f;
+  color: #d9bf84;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .footer1 .comillas {
+    width: 140%; }
+  .footer1 a {
+    color: #d86b40; }
+    .footer1 a:hover {
+      color: #d9bf84;
+      text-decoration: none; }
+  .footer1 h4 {
+    padding-bottom: 16px; }
 
 /*# sourceMappingURL=main.css.map */

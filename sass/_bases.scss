@@ -1,119 +1,153 @@
 /*aquí se hace el codigo general como lo hariamos en css normal*/
 
+/*
+
+$footer_navbar_color:#2f1f1f;
+$blanco: whitesmoke;
+$background_seccion_uno:#e9e0b7;
+$circle_readmore_color:#d9bf84;
+$circle:50%;
+$background_seccion_dos:#f4f4f4;
+$color_text_titulo:#d86b40;
+$background_seccion_tres:#4a3a3a;
+$color_text_seccion_tres:#fbcd7f;
+
+*/
+
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    color:white;
-    background-color:$background_seccion_uno;
-    p{
-      font-size:12px;
-      letter-spacing:1px;
+    color: white;
+    background-color: $background_seccion_uno;
+    p {
+        font-size: 12px;
+        letter-spacing: 1px;
     }
-      li{
-        font-size:12px;
-        list-style:none;
-      }
+    li {
+        font-size: 12px;
+        list-style: none;
+    }
 }
 
 //navbar
 .navbar {
     background-color: $footer_navbar_color;
-	margin-bottom: 0;
-	
-	}
+    margin-bottom: 0;
+}
 
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-nav>li>a {
     color: $blanco;
-    &:hover{
-    	color:$circle_readmore_color
+    &:hover {
+        color: $circle_readmore_color;
     }
 }
 
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
     /* border-color: #e7e7e7; */
     padding-left: 31%;
 }
-/*seccion uno*/
-//CAROUSEL
 
+
+/*seccion uno*/
+
+//CAROUSEL
 .carousel-indicators .active {
     margin: 0;
     width: 12px;
     height: 12px;
-    background-color:$circle_readmore_color;
+    background-color: $circle_readmore_color;
 }
+
 
 /*seccion 2 */
-.section2{
-    color:black;
-    border-top:1px solid black;
+
+.section2 {
+    color: black;
+    border-top: 1px solid black;
     height: 50vh;
-    .logo{
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 56%;
-      margin: 0 auto;
-      z-index: 9999999;
-      }
-  	   .container
-        //estilos container (si son necesarios)
-        img{
-          border: 10px solid $circle_readmore_color;
-          }
-      		span{
-      			background-color: $circle_readmore_color;
-      		}
-      		  a{
-      			 color:black;
-      			 &:hover{
-      				color:$blanco;
-      		}
-      	}
+    .logo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 56%;
+        margin: 0 auto;
+        z-index: 9999999;
+    }
+    .container //estilos container (si son necesarios)
+    img {
+        border: 10px solid $circle_readmore_color;
+    }
+    span {
+        background-color: $circle_readmore_color;
+    }
+    a {
+        color: black;
+        &:hover {
+            color: $blanco;
+        }
+    }
 }
 
+
 /*seccion 3*/
-.section3{
-	background-color: $background_seccion_dos;
-	padding-top: 70px;
-	padding-bottom: 70px;
-  color:black;
-  border-top: 5px solid $background_seccion_uno;
-  h2{
-    color:$color_text_titulo;
-  }
-  li>img{
-    width: 2%;
-  }
-  li{
-    padding-bottom: 11px;
-  }
+
+.section3 {
+    background-color: $background_seccion_dos;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: black;
+    border-top: 5px solid $background_seccion_uno;
+    h2 {
+        color: $color_text_titulo;
+    }
+    li>img {
+        width: 2%;
+    }
+    li {
+        padding-bottom: 11px;
+    }
 }
+
 
 /*seccion 4*/
 
-.section4{
-  background-color:$background_seccion_tres;
-  color:$circle_readmore_color;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  hr{
-      color:$blanco;
-      width: 45%;
-  }
-  i{
-    color:$blanco;
-  }
+.section4 {
+    background-color: $background_seccion_tres;
+    color: $circle_readmore_color;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 2px solid $blanco;
+    hr {
+        color: $blanco;
+        width: 45%;
+    }
+    i {
+        color: $blanco;
+    }
 }
+
 
 /*seccion footer*/
-.footer1{
-  background-color:$footer_navbar_color;
+
+.footer1 {
+    background-color: $footer_navbar_color;
+    color: $circle_readmore_color;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .comillas {
+        width: 140%;
+    }
+      a{
+        color:$color_text_titulo;
+      
+        &:hover{
+          color:$circle_readmore_color;
+          text-decoration: none;
+        }
+       }
+          h4{
+            padding-bottom: 16px;
+            }
 }
-
-
-
-
-
