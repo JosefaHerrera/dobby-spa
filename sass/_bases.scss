@@ -1,5 +1,5 @@
 /*aquí se hace el codigo general como lo hariamos en css normal*/
-
+//sass --watch sass/main.scss:css/main.css
 /*
 
 $footer_navbar_color:#2f1f1f;
@@ -65,7 +65,7 @@ body {
 
 .section2 {
     color: black;
-    border-top: 1px solid black;
+    border-top: 3px solid black;
     height: 50vh;
     .logo {
         position: absolute;
@@ -119,6 +119,7 @@ body {
     padding-bottom: 40px;
     padding-top: 40px;
     border-bottom: 2px solid $blanco;
+    border-top: 3px solid $background_seccion_uno;
     hr {
         color: $blanco;
         width: 45%;
